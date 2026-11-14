@@ -9,7 +9,7 @@ This project is a starting point for a Flutter application.
 A few resources to get you started if this is your first Flutter project:
 
 -
-# Vodafone-Project
+
 Girişim Fikri: Niş Topluluklara Odaklı Üniversite Sosyalleşme Platformu
 
 Projeler ve girişimler alanında en sık yapılan hatalardan biri, geniş pazar alanlarının sağlam bir topluluğa ulaşmak için daha kolay ve doğru bir zemin sunduğunun düşünülmesidir. Oysa özellikle sosyal alanlarda bu sanıldığı kadar kolay değildir. Büyük kitlelere ulaşmak, büyük kaynak ve ciddi bir risk gerektirir.
