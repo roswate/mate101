@@ -76,7 +76,7 @@ class _ChatScreenState extends State<ChatScreen> {
               const Text("Sonucu gir, puanı kap!"),
               const SizedBox(height: 20),
               DropdownButtonFormField<String>(
-                value: selectedGame,
+                initialValue: selectedGame,
                 items: ["Okey 101", "Düz Okey", "Batak", "Tavla", "52", "LoL", "Valorant"].map((g) => DropdownMenuItem(value: g, child: Text(g))).toList(),
                 onChanged: (v) => selectedGame = v!,
               ),

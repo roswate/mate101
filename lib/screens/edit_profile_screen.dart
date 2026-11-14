@@ -101,7 +101,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
 
             // ÜNİVERSİTE SEÇİMİ
             DropdownButtonFormField<String>(
-              value: _selectedUni,
+              initialValue: _selectedUni,
               decoration: const InputDecoration(labelText: "Üniversite", border: OutlineInputBorder(), prefixIcon: Icon(Icons.school)),
               items: _universities.map((uni) => DropdownMenuItem(value: uni, child: Text(uni, overflow: TextOverflow.ellipsis))).toList(),
               onChanged: (val) => setState(() => _selectedUni = val),
@@ -136,7 +136,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
 
             // DİĞER BİLGİLER
             DropdownButtonFormField<String>(
-              value: _selectedGender,
+              initialValue: _selectedGender,
               decoration: const InputDecoration(labelText: "Cinsiyet", border: OutlineInputBorder(), prefixIcon: Icon(Icons.wc)),
               items: ["Erkek", "Kadın"].map((g) => DropdownMenuItem(value: g, child: Text(g))).toList(),
               onChanged: (val) => setState(() => _selectedGender = val),

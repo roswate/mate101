@@ -100,7 +100,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
               
               // 4. BİLDİRİMLER (SWITCH)
               SwitchListTile(
-                activeColor: _mainGreen,
+                activeThumbColor: _mainGreen,
                 contentPadding: const EdgeInsets.symmetric(horizontal: 10),
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                 tileColor: Colors.white,
@@ -113,7 +113,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
               
               // 5. ONLİNE DURUMU (SWITCH)
               SwitchListTile(
-                activeColor: _mainGreen,
+                activeThumbColor: _mainGreen,
                 contentPadding: const EdgeInsets.symmetric(horizontal: 10),
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                 tileColor: Colors.white,

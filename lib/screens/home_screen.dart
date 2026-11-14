@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import '../services/database_service.dart';
-import 'intro_screen.dart';
 import 'chat_screen.dart';
 import 'edit_profile_screen.dart';
 import 'settings_screen.dart';
